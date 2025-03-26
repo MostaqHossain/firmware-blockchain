@@ -72,7 +72,7 @@ Error: toAddressIsNull
 ✅ **Deployed Smart Contract Successfully**
 
 📌 **Etherscan Verification:**
-![Transaction Confirmation](<img width="1099" alt="tx_hash" src="https://github.com/user-attachments/assets/e322c255-6683-4a3e-96d5-987acbc04eb6" />)
+![Transaction Confirmation](https://github.com/MostaqHossain/firmware-blockchain/blob/main/tx_hash.png)
 
 ---
 ## **Step 4: Store Firmware Hash on Blockchain**
@@ -111,7 +111,7 @@ Retrieved Hash: a9c390a9b5ec85dfdbacea42f2c30e2e30cab602a06a0276c6fc6e8f400c9971
 ---
 ## **Final Verification on Etherscan**
 📌 **Etherscan Transaction Screenshot:**
-![Etherscan Verification](<img width="1037" alt="tx_verification" src="https://github.com/user-attachments/assets/f12415c1-bf54-4b64-b78f-4baea1cc72a3" />)
+![Etherscan Verification](https://github.com/MostaqHossain/firmware-blockchain/blob/main/tx_verification.png)
 
 ---
 ## **Next Steps & Enhancements**
