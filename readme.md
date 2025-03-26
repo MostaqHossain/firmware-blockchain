@@ -17,7 +17,7 @@ This document details the steps taken to implement a blockchain-based firmware i
 ```python
 import hashlib
 
-file_path = "C:\\Drive_D\\TnTech\\Spring 2025\\CSC 7970 CPS\\term-paper-tw\\Arduino-COMBINED-dfu-usbserial-atmega16u2-Mega2560-Rev3.hex"
+file_path = "<YOUR_LOCAL_FOLDER_ADDRESS>\Arduino-COMBINED-dfu-usbserial-atmega16u2-Mega2560-Rev3.hex"
 
 with open(file_path, "rb") as f:
     firmware_data = f.read()
@@ -28,7 +28,7 @@ print("Firmware Hash:", firmware_hash)
 
 ### **Output:**
 ```
-Firmware Hash: a9c390a9b5ec85dfdbacea42f2c30e2e30cab602a06a0276c6fc6e8f400c9971
+Firmware Hash: a9c390a9b5ec.......
 ```
 
 ---
@@ -83,7 +83,7 @@ Function: `storeFirmwareHash(string deviceID, string hash)`
 ### **Inputs:**
 ```
 DeviceID: "Device123"
-Hash: "a9c390a9b5ec85dfdbacea42f2c30e2e30cab602a06a0276c6fc6e8f400c9971"
+Hash: "a9c390a9b5ec85.............."
 ```
 
 ### **Transaction Success Message:**
@@ -104,7 +104,7 @@ DeviceID: "Device123"
 
 ### **Output:**
 ```
-Retrieved Hash: a9c390a9b5ec85dfdbacea42f2c30e2e30cab602a06a0276c6fc6e8f400c9971
+Retrieved Hash: a9c390a9b5ec85dfdbacea42f2c.............
 ✅ Hash Matched!
 ```
 
