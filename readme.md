@@ -114,11 +114,5 @@ Retrieved Hash: a9c390a9b5ec85dfdbacea42f2c.............
 ![Etherscan Verification](https://github.com/MostaqHossain/firmware-blockchain/blob/main/tx_verification.png)
 
 ---
-## **Next Steps & Enhancements**
-- **Automate hash computation** with a monitoring script.
-- **Integrate decentralized identity (DID)** for authentication.
-- **Enhance security** by signing firmware hashes before storage.
-
----
 ### **Conclusion**
 This implementation successfully stored and verified firmware integrity using blockchain. By leveraging Ethereum's Sepolia Testnet, we ensured firmware authenticity, mitigating risks of malicious modifications.
